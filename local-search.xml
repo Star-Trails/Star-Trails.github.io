@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>谨贺新年2021</title>
+    <link href="/2021/02/11/%E8%B0%A8%E8%B4%BA%E6%96%B0%E5%B9%B42021/"/>
+    <url>/2021/02/11/%E8%B0%A8%E8%B4%BA%E6%96%B0%E5%B9%B42021/</url>
+    
+    <content type="html"><![CDATA[<p>今天是2021年2月11日（虽说我是10号写的，但提前祝福一下也没什么不好的嘛！[滑稽]）除夕！！！<br>在这里祝大家除夕快乐！在新的一年里辛福安康！</p><p><img src="/images/2021.jpg"></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>小米授权服务中心一日游</title>
+    <link href="/2020/07/11/%E5%B0%8F%E7%B1%B3%E6%8E%88%E6%9D%83%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83%E4%B8%80%E6%97%A5%E6%B8%B8/"/>
+    <url>/2020/07/11/%E5%B0%8F%E7%B1%B3%E6%8E%88%E6%9D%83%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83%E4%B8%80%E6%97%A5%E6%B8%B8/</url>
+    
+    <content type="html"><![CDATA[<p>书接上回,我手机被我刷成砖了,于是今天我来到了徐汇区的小米授权服务中心，不得不说，那环境真不错，干净整洁，开着空调。在漫长的等待后，终于叫到我了，讲了几分钟说明情况，又要等了。。。</p><p>过了大概一个1个小时，客服叫我过去，我本以为会迎来复活的手机，可是客服却告诉我：“对不起，我们刷不开你的机器。您可以试着更换一下模块。”我问换模块多少钱 ，他说400。我当时那感觉就像吃了屎一样，要可知道那手机是我1000块从咸鱼上捡来的，我顿时感觉自己亏了一个亿，但我妈坚决不让我换手机，所以我只能极不情愿地交出了400块。本来确实是修好了，但是我难受的一批。我以后再也不敢刷机了。。。但也有一件好事情，就是在回去的路上遇到了个小米之家，顺便和店员里应外合，连坑带骗的让我妈买了一个小米手环5 NFC版，嘛。。。还不错。<br>今天虽然亏了400，但讲道理，客服的态度和服务是真的好，又赚了一个小米手环5，挺充实的一天。</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>关于作死</title>
+    <link href="/2020/07/11/%E5%85%B3%E4%BA%8E%E4%BD%9C%E6%AD%BB/"/>
+    <url>/2020/07/11/%E5%85%B3%E4%BA%8E%E4%BD%9C%E6%AD%BB/</url>
+    
+    <content type="html"><![CDATA[<p>我现在难受的一批…当我卡刷后,我的手机自动重启进入了黑屏,此时,我的电脑上弹出了提示。一种不好的预感油然而生，一看端口：Qualcomm HS-USB QDLoader 9008(COM3)……</p><p><img src="/images/llll.png"></p><p>在此之后，我尝试了用QFIL，可是看起来8太行。用MiFlash老是刷不进去，后来，在翻阅无数论坛,甚至还将手机拆了进行断电后得出了一个结论：我 没 有 E D L 授 权 的 账 号!!!</p><p><img src="/images/gggg.png"><br><img src="/images/xxxx.png"><br><img src="/images/jjjj.png"></p><p>至此,一天结束了,现在是7月11日0:18,我的手机还处于9008模式,明天又要去徐汇区维修。</p><p>这件事告诫我们，不作死就不会死……</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>关于使用Pixel Experience的过程</title>
+    <link href="/2020/07/10/%E5%85%B3%E4%BA%8E%E4%BD%BF%E7%94%A8Pixel%20Experience%E7%9A%84%E8%BF%87%E7%A8%8B/"/>
+    <url>/2020/07/10/%E5%85%B3%E4%BA%8E%E4%BD%BF%E7%94%A8Pixel%20Experience%E7%9A%84%E8%BF%87%E7%A8%8B/</url>
+    
+    <content type="html"><![CDATA[<p>事情是这样的。。。用上MIUI12之后用着用着就用不爽了,想起来Mashirl之前好像发了一个博客，推荐了一个第三方ROM。<br><img src="/images/eeee.png"><br>就想着去刷一下然后我发现我的安卓是10，他官方的包只支持的到安卓9，我先是把MIUI从开发版降到了稳定版的11，然后就死活降不到他打包时基于的MIUI9.7.4，卡刷完之后老是开机重启到TWRP，用MiFlash线刷也一直卡在最后一个推送中，总而言之就是死活降不到安卓9。然后呢，小米还“贴心”的为我的机型推出了防回滚功能，导致降级变得非常麻烦，唯一的方法线刷还不管用（我怀疑是USB口的问题，下次检查一下，我机箱内的线就是乱摆的，乱的一批），然后抱着最后一丝希望去看了一下Mashirl的原文章，然后发现她的机型也没有支持，然后我顺便看了一下那个链接，试着找了一下，没想到真的有一位大佬开发出了一个基于安卓10MIUI11的第三方魔改版，现在正在下载，希望能成功<br><img src="/images/qqqq.png"></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Minecraft服务器开服教程</title>
+    <link href="/2020/05/14/Minecraft%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%BC%80%E6%9C%8D%E6%95%99%E7%A8%8B/"/>
+    <url>/2020/05/14/Minecraft%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%BC%80%E6%9C%8D%E6%95%99%E7%A8%8B/</url>
+    
+    <content type="html"><![CDATA[<p><img src="/images/pppp.png"></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>test</title>
+    <link href="/2020/05/12/test/"/>
+    <url>/2020/05/12/test/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
