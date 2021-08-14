@@ -56,7 +56,7 @@
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.10","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.11","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}},"search_path":"/local-search.xml"};
   </script>
   <script  src="/js/utils.js" ></script>
   <script  src="/js/color-schema.js" ></script>
@@ -112,18 +112,6 @@
               <a class="nav-link" href="/tags/">
                 <i class="iconfont icon-tags-fill"></i>
                 标签
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/playlist/">
-                <i class="iconfont icon-music"></i>
-                歌单
               </a>
             </li>
           
@@ -240,7 +228,7 @@
             <h1 style="display: none">小米授权服务中心一日游</h1>
             
             <div class="markdown-body">
-              <p>书接上回,我手机被我刷成砖了,于是今天我来到了徐汇区的小米授权服务中心，不得不说，那环境真不错，干净整洁，开着空调。在漫长的等待后，终于叫到我了，讲了几分钟说明情况，又要等了。。。</p>
+              <script src="\assets\js\APlayer.min.js"> </script><p>书接上回,我手机被我刷成砖了,于是今天我来到了徐汇区的小米授权服务中心，不得不说，那环境真不错，干净整洁，开着空调。在漫长的等待后，终于叫到我了，讲了几分钟说明情况，又要等了。。。</p>
 <p>过了大概一个1个小时，客服叫我过去，我本以为会迎来复活的手机，可是客服却告诉我：“对不起，我们刷不开你的机器。您可以试着更换一下模块。”我问换模块多少钱 ，他说400。我当时那感觉就像吃了屎一样，要可知道那手机是我1000块从咸鱼上捡来的，我顿时感觉自己亏了一个亿，但我妈坚决不让我换手机，所以我只能极不情愿地交出了400块。本来确实是修好了，但是我难受的一批。我以后再也不敢刷机了。。。但也有一件好事情，就是在回去的路上遇到了个小米之家，顺便和店员里应外合，连坑带骗的让我妈买了一个小米手环5 NFC版，嘛。。。还不错。<br>今天虽然亏了400，但讲道理，客服的态度和服务是真的好，又赚了一个小米手环5，挺充实的一天。</p>
 
             </div>
@@ -300,21 +288,15 @@
   <div id="valine"></div>
   <script type="text/javascript">
     Fluid.utils.loadComments('#valine', function() {
-      Fluid.utils.createScript('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', function () {
-        new Valine({
-          el: "#valine",
-          app_id: "8PVcJuDPYg0zFeijCNJ4xXIq-gzGzoHsz",
-          app_key: "L3slG03EGzfh32huJqh85CeO",
-          placeholder: "说点什么",
-          path: window.location.pathname,
-          avatar: "retro",
-          meta: ["nick","mail","link"],
-          pageSize: "10",
-          lang: "zh-CN",
-          highlight: false,
-          recordIP: false,
-          serverURLs: "",
-        });
+      Fluid.utils.createScript('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', function() {
+        var options = Object.assign(
+          {"appId":"8PVcJuDPYg0zFeijCNJ4xXIq-gzGzoHsz","appKey":"L3slG03EGzfh32huJqh85CeO","placeholder":"说点什么","path":"window.location.pathname","avatar":"retro","meta":["nick","mail","link"],"pageSize":10,"lang":"zh-CN","highlight":false,"recordIP":false,"serverURLs":null,"emojiCDN":null,"emojiMaps":null,"enableQQ":false,"requiredFields":[],"appid":"8PVcJuDPYg0zFeijCNJ4xXIq-gzGzoHsz","appkey":"L3slG03EGzfh32huJqh85CeO"},
+          {
+            el: "#valine",
+            path: window.location.pathname
+          }
+        )
+        new Valine(options);
       });
     });
   </script>
@@ -437,6 +419,10 @@
 
 
 
+  <script  src="/js/local-search.js" ></script>
+
+
+
 
 
 
@@ -449,21 +435,6 @@
       typing(title)
       
     })(window, document);
-  </script>
-
-
-
-  <script  src="/js/local-search.js" ></script>
-  <script>
-    (function () {
-      var path = "/local-search.xml";
-      $('#local-search-input').on('click', function() {
-        searchFunc(path, 'local-search-input', 'local-search-result');
-      });
-      $('#modalSearch').on('shown.bs.modal', function() {
-        $('#local-search-input').focus();
-      });
-    })()
   </script>
 
 
